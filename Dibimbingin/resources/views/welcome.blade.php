@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.88.1">
-    <title>Album example · Bootstrap v5.1</title>
+    <title>Welcome Page</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/album/">
 
@@ -52,13 +52,16 @@
   <header class="site-header  py-1">
   <nav class="container d-flex flex-column flex-md-row justify-content-between">
     <a class="py-2" href="#" aria-label="Product">
-      <img src="logokita.jpg" width="349" height="95" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mx-auto" role="img" viewBox="0 0 24 24"><title>Product</title><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></img>
+      <img src="logokita.jpg" width="349" height="95" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mx-auto" role="img" viewBox="0 0 24 24">
+      <title>Product</title>
+      <circle cx="12" cy="12" r="10"/>
+      <path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></img>
     </a>
-    <a class="py-2 d-none d-md-inline-block" href="#">HOME</a>
-    <a class="py-2 d-none d-md-inline-block" href="#">BIMBEL</a>
-    <a class="py-2 d-none d-md-inline-block" href="#">BEASISWA</a>
-    <a class="py-2 d-none d-md-inline-block" href="#">KURSUS</a>
-    <a class="py-2 d-none d-md-inline-block" href="/login">LOGIN</a>
+    <a class="nav-link active" aria-current="page" href="#">HOME</a>
+    <a class="nav-link active" aria-current="page" href="#">BIMBEL</a>
+    <a class="nav-link active" aria-current="page" href="#">BEASISWA</a>
+    <a class="nav-link active" aria-current="page" href="#">KURSUS</a>
+    <a class="nav-link active" aria-current="page" href="/login">LOGIN</a>
     
   </nav>
 </header>
